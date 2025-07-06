@@ -2,56 +2,97 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Curatick Oral Wound Dressing | Dentalkart</title>
+  <title>TEJA DENTAL DEPOT – Your Trusted Dental Supplier</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fafafa;
       margin: 0;
-      background: #f4f4f4;
     }
-    .banner {
-      background: linear-gradient(90deg, #00bcd4, #009688);
+    header {
+      background-color: #0288d1;
       color: white;
-      padding: 40px;
+      padding: 20px;
       text-align: center;
     }
-    .deal {
-      font-size: 1.5em;
-      margin: 10px 0;
+    nav {
+      background-color: #01579b;
+      padding: 10px;
+      text-align: center;
     }
-    .price {
-      font-size: 2em;
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
       font-weight: bold;
     }
-    .strike {
-      text-decoration: line-through;
-      font-size: 1em;
-      color: #eee;
+    .banner {
+      background-image: url('https://via.placeholder.com/1200x300?text=TEJA+DENTAL+DEPOT+DEALS');
+      height: 300px;
+      background-size: cover;
+      background-position: center;
     }
-    .button {
-      margin-top: 20px;
-      padding: 12px 24px;
-      background: #ff5722;
-      color: white;
-      border: none;
-      font-size: 1em;
-      cursor: pointer;
-    }
-    .info {
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       padding: 20px;
+    }
+    .product-card {
       background: white;
+      border: 1px solid #ddd;
+      margin: 10px;
+      padding: 15px;
+      width: 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product-card img {
+      width: 100%;
+      height: auto;
+    }
+    .footer {
+      text-align: center;
+      background-color: #eeeeee;
+      padding: 20px;
+      color: #555;
+      margin-top: 30px;
     }
   </style>
 </head>
 <body>
-  <div class="banner">
-    <h1>Sunday Blockbuster Deal 💥</h1>
-    <div class="deal">Curatick Oral Wound Dressing – Transparent Patch for Targeted Oral Relief</div>
-    <div class="price"><span class="strike">₹500</span> ₹425</div>
-    <button class="button">Shop Now</button>
-  </div>
-  <div class="info">
-    <p>TEJA brings you 20,000+ dental products across 450+ brands. Guaranteed original and best prices!</p>
-  </div>
+  <header>
+    <h1>TEJA DENTAL DEPOT</h1>
+    <p>Your One-Stop Shop for Dental Excellence</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Brands</a>
+    <a href="#">Offers</a>
+    <a href="#">Contact Us</a>
+  </nav>
+
+  <div class="banner"></div>
+
+  <section class="products">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x200?text=Product+1" alt="Product 1">
+      <h3>Curatick Oral Wound Dressing</h3>
+      <p>Targeted transparent patch for oral wound healing.</p>
+      <p><strong>₹425</strong> <span style="text-decoration:line-through;">₹500</span></p>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200x200?text=Product+2" alt="Product 2">
+      <h3>Dental Composite Kit</h3>
+      <p>High-performance resin system for restorations.</p>
+      <p><strong>₹1,299</strong></p>
+    </div>
+    <!-- Add more products as needed -->
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 TEJA DENTAL DEPOT. All rights reserved.</p>
+  </footer>
 </body>
 </html>
